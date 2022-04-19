@@ -336,6 +336,16 @@ form {
    background-color: azure;
    padding: 20px;
 }
+legend {
+   text-align: center;
+   color: black;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+
+label {
+   color: black;
+}
 
 form input {
    width: 80%;
