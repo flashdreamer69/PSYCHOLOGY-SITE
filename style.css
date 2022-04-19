@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Philosopher:ital@1&display=swap');
 
 * {
    margin: 0;
@@ -38,6 +38,11 @@ section {
 
 .navbar {
    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+   font-family: 'Philosopher', sans-serif;
+   padding: 10px;
 }
 
 .nav-link {
@@ -157,7 +162,17 @@ color: white;
 }
 
 .about-item img {
-width: 300px !important;
+width: 250px !important;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+object-position: center;
+}
+
+.about-list li {
+   margin: 10px 0;
+   line-height: 1.2;
+   list-style:disc;
 }
 
 /*---------- ПРИНЦИП МЕТОДИКИ -------------------- */
@@ -259,7 +274,7 @@ width: 300px !important;
    background-color: white;
    color: black;
    padding: 20px 30px;
-   font-size: 40px;
+   font-size: 30px;
 }
 .price a {
    text-decoration: none;
